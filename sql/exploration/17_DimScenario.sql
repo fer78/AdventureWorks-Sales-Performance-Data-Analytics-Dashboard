@@ -4,7 +4,4 @@ FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_NAME = 'DimScenario';
 
 -- Top 10
-SELECT TOP 10 * FROM DimScenario;
-
--- Total Rows
-SELECT COUNT(*) AS TotalRows FROM DimScenario;
+SELECT * FROM DimScenario;

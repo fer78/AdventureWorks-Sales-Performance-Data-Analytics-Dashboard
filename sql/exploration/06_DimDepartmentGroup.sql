@@ -8,4 +8,4 @@ WHERE TABLE_NAME = 'DimDepartmentGroup';
 SELECT TOP 10 * FROM dbo.DimDepartmentGroup;
 
 -- Total Rows
-SELECT COUNT(*) AS TotalRows FROM dbo.DimDepartmentGroup;
+SELECT DepartmentGroupKey, DepartmentGroupName FROM DimDepartmentGroup;

@@ -8,5 +8,5 @@ WHERE TABLE_NAME = 'DimOrganization';
 SELECT * FROM DimOrganization;
 
 -- Total Rows
-SELECT COUNT(*) AS TotalRows FROM DimOrganization;
+SELECT DISTINCT OrganizationKey, OrganizationName FROM DimOrganization;
 

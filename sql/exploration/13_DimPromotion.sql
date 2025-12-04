@@ -8,4 +8,4 @@ WHERE TABLE_NAME = 'DimPromotion';
 SELECT TOP 10 * FROM DimPromotion;
 
 -- Total Rows
-SELECT COUNT(*) AS TotalRows FROM DimPromotion;
+SELECT DISTINCT PromotionKey, EnglishPromotionCategory, EnglishPromotionType, EnglishPromotionName AS TotalRows FROM DimPromotion;

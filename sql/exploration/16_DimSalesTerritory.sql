@@ -7,4 +7,4 @@ WHERE TABLE_NAME = 'DimSalesTerritory';
 SELECT TOP 10 * FROM DimSalesTerritory;
 
 -- Total Rows
-SELECT COUNT(*) AS TotalRows FROM DimSalesTerritory;
+SELECT DISTINCT SalesTerritoryKey,	SalesTerritoryGroup,	SalesTerritoryRegion,	SalesTerritoryCountry FROM DimSalesTerritory;

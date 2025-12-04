@@ -10,7 +10,6 @@ SELECT TOP 10 * FROM DimGeography;
 -- Total Rows
 SELECT COUNT(*) AS TotalRows FROM DimGeography;
 
-SELECT EnglishCountryRegionName, COUNT(*) AS Count
-FROM DimGeography
-GROUP BY EnglishCountryRegionName
-ORDER BY Count DESC;
+SELECT DISTINCT CountryRegionCode, EnglishCountryRegionName FROM DimGeography;
+
+SELECT DISTINCT StateProvinceCode, StateProvinceName FROM DimGeography;

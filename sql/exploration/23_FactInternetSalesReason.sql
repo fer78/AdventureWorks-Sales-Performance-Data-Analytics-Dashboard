@@ -5,6 +5,3 @@ WHERE TABLE_NAME = 'FactInternetSalesReason';
 
 -- Top 10
 SELECT TOP 10 * FROM FactInternetSalesReason;
-
--- Total Rows
-SELECT COUNT(*) AS TotalRows FROM FactInternetSalesReason;

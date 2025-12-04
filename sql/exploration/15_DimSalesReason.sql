@@ -7,4 +7,4 @@ WHERE TABLE_NAME = 'DimSalesReason';
 SELECT TOP 10 * FROM DimSalesReason;
 
 -- Total Rows
-SELECT COUNT(*) AS TotalRows FROM DimSalesReason;
+SELECT DISTINCT SalesReasonKey, SalesReasonReasonType, SalesReasonName FROM DimSalesReason;

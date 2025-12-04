@@ -8,4 +8,6 @@ WHERE TABLE_NAME = 'DimProduct';
 SELECT TOP 10 * FROM DimProduct;
 
 -- Total Rows
-SELECT COUNT(*) AS TotalRows FROM DimProduct;
+SELECT DISTINCT Class FROM DimProduct;
+
+SELECT DISTINCT Style FROM DimProduct;

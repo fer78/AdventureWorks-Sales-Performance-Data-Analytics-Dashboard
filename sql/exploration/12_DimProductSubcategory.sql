@@ -8,4 +8,4 @@ WHERE TABLE_NAME = 'DimProductSubcategory';
 SELECT TOP 10 * FROM DimProductSubcategory;
 
 -- Total Rows
-SELECT COUNT(*) AS TotalRows FROM DimProductSubcategory;
+SELECT DISTINCT ProductCategoryKey, ProductSubcategoryKey, EnglishProductSubcategoryName FROM DimProductSubcategory;

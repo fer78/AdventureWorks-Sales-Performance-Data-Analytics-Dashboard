@@ -10,3 +10,4 @@ SELECT TOP 10 * FROM dbo.DimCurrency;
 -- Total Rows
 SELECT COUNT(*) AS TotalRows FROM dbo.DimCurrency;
 
+select CurrencyAlternateKey, CurrencyName from DimCurrency;
