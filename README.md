@@ -1,7 +1,7 @@
 # AdventureWorks Sales Performance & Data Analytics Dashboard
 
-This project demonstrates an end-to-end data analytics solution using **SQL Server**, **Power BI**, and the **AdventureWorksDW2022** database.  
-It is designed as a professional portfolio project to showcase skills in **SQL**, **data modeling**, **DAX**, and **dashboard design**.
+This project demonstrates an end-to-end data analytics solution using **SQL Server**, **Python**, **Power BI**, and the **AdventureWorksDW2022** database.  
+It is designed as a professional portfolio project to showcase skills in **SQL**, **data modeling**, **Pandas**,  **DAX**, and **dashboard design**.
 
 ---
 
