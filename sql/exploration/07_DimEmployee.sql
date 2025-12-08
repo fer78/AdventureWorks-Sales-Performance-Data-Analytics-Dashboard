@@ -4,8 +4,11 @@ FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_NAME = 'DimEmployee';
 
 
--- Top 10
-SELECT TOP 10 * FROM DimEmployee;
 
--- Total Rows
-SELECT COUNT(*) AS TotalRows FROM DimEmployee;
+SELECT DISTINCT status FROM DimEmployee;
+SELECT DISTINCT DepartmentName FROM DimEmployee;
+SELECT DISTINCT Title FROM DimEmployee;
+
+SELECT status from DimEmployee
+where CurrentFlag = 1 and SalesPersonFlag = 1;
+

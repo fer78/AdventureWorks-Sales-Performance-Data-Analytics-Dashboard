@@ -9,3 +9,5 @@ SELECT TOP 10 * FROM dbo.DimDepartmentGroup;
 
 -- Total Rows
 SELECT DepartmentGroupKey, DepartmentGroupName FROM DimDepartmentGroup;
+
+select ParentDepartmentGroupKey, DepartmentGroupName from DimDepartmentGroup;

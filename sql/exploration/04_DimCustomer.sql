@@ -8,4 +8,8 @@ WHERE TABLE_NAME = 'DimCustomer';
 SELECT TOP 10 * FROM dbo.DimCustomer;
 
 -- Total Rows
-SELECT COUNT(*) AS TotalRows FROM dbo.DimCustomer;
+SELECT DISTINCT CommuteDistance FROM DimCustomer;
+
+SELECT DISTINCT EnglishEducation FROM DimCustomer;
+
+SELECT DISTINCT EnglishOccupation FROM DimCustomer;
