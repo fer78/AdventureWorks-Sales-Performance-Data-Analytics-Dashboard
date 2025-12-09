@@ -1,0 +1,27 @@
+CREATE OR ALTER VIEW vw_FactResellerSales AS
+SELECT
+    ProductKey,
+    OrderDateKey,
+    DueDateKey,
+    ShipDateKey,
+    ResellerKey,
+    EmployeeKey,
+    PromotionKey,
+    CurrencyKey,
+    SalesTerritoryKey,
+    SalesOrderNumber,
+    SalesOrderLineNumber,
+    OrderQuantity,
+    UnitPrice,
+    ExtendedAmount,
+    UnitPriceDiscountPct,
+    DiscountAmount,
+    ProductStandardCost,
+    TotalProductCost,
+    SalesAmount,
+    TaxAmt,
+    Freight,
+    OrderDate,
+    DueDate,
+    ShipDate
+FROM FactResellerSales;

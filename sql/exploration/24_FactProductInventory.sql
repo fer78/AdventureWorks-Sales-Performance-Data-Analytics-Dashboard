@@ -4,7 +4,7 @@ FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_NAME = 'FactProductInventory';
 
 -- Top 10
-SELECT TOP 10 * FROM FactProductInventory;
+SELECT TOP 10 * FROM dbo.FactProductInventory;
 
 -- Total Rows
 SELECT COUNT(*) AS TotalRows FROM FactProductInventory;

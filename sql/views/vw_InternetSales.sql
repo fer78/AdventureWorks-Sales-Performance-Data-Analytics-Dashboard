@@ -1,0 +1,26 @@
+CREATE OR ALTER VIEW vw_InternetSales AS
+SELECT
+    ProductKey,
+    OrderDateKey,
+    DueDateKey,
+    ShipDateKey,
+    CustomerKey,
+    PromotionKey,
+    CurrencyKey,
+    SalesTerritoryKey,
+    SalesOrderNumber,
+    SalesOrderLineNumber,
+    OrderQuantity,
+    UnitPrice,
+    ExtendedAmount,
+    UnitPriceDiscountPct,
+    DiscountAmount,
+    ProductStandardCost,
+    TotalProductCost,
+    SalesAmount,
+    TaxAmt,
+    Freight,
+    OrderDate,
+    DueDate,
+    ShipDate
+FROM FactInternetSales;

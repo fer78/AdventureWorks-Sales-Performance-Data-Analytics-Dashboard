@@ -5,6 +5,3 @@ WHERE TABLE_NAME = 'FactAdditionalInternationalProductDescription';
 
 -- Top 10
 SELECT TOP 10 * FROM FactAdditionalInternationalProductDescription;
-
--- Total Rows
-SELECT COUNT(*) AS TotalRows FROM FactAdditionalInternationalProductDescription;

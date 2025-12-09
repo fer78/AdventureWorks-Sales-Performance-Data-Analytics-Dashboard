@@ -4,7 +4,7 @@ FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_NAME = 'FactCurrencyRate';
 
 -- Top 10
-SELECT TOP 10 * FROM FactCurrencyRate;
+SELECT TOP 10 * FROM dbo.FactCurrencyRate;
 
 -- Total Rows
 SELECT COUNT(*) AS TotalRows FROM FactCurrencyRate;

@@ -4,7 +4,7 @@ FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_NAME = 'FactCallCenter';
 
 -- Top 10
-SELECT TOP 10 * FROM FactCallCenter;
+SELECT TOP 10 * FROM dbo.FactCallCenter;
 
 -- Total Rows
 SELECT COUNT(*) AS TotalRows FROM FactCallCenter;

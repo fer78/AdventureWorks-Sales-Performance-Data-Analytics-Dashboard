@@ -4,7 +4,7 @@ FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_NAME = 'FactInternetSales';
 
 -- Top 10
-SELECT TOP 10 * FROM FactInternetSales;
+SELECT TOP 10 * FROM dbo.FactInternetSales;
 
 -- Total Rows
 SELECT COUNT(*) AS TotalRows FROM FactInternetSales;
