@@ -1,4 +1,4 @@
-CREATE OR ALTER VIEW vw_FactInternetSalesReason AS
+CREATE OR ALTER VIEW vw_InternetSalesReason AS
 SELECT
     SalesOrderNumber,
     SalesOrderLineNumber,

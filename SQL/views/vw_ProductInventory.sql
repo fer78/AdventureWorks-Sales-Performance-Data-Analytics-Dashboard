@@ -1,4 +1,4 @@
-CREATE OR ALTER VIEW vw_FactProductInventory AS
+CREATE OR ALTER VIEW vw_ProductInventory AS
 SELECT
     ProductKey,
     DateKey,

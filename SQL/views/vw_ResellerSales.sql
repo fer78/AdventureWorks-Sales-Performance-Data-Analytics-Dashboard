@@ -1,4 +1,4 @@
-CREATE OR ALTER VIEW vw_FactResellerSales AS
+CREATE OR ALTER VIEW vw_ResellerSales AS
 SELECT
     ProductKey,
     OrderDateKey,
