@@ -53,7 +53,7 @@ def check_data(name, raw_path=RAW_PATH):
 
 def save_data(df, df_name, processed_path=PROCESSED_PATH):
     output_path = os.path.join(processed_path, f"{df_name}.csv")
-    df.to_csv(output_path, index=False, encoding="utf-8-sig")
+    df.to_parquet(output_path, engine='pyarrow', index=False)
     msg = f"✔ File saved in: {output_path}"
     print(msg)
     logger.info(msg)
